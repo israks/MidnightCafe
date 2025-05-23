@@ -1,0 +1,142 @@
+body {
+    background-image: url(images/pink_bows_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #595958;
+    font-family: "Rouge Script", cursive;
+    font-size: 2em;
+    font-weight: 500;
+    font-style: normal;    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main-content {
+    display: flex;
+    /*padding: auto;
+    margin: auto;*/
+    gap: 10%;
+}
+
+#main-content-text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Imprima", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #6e6e6d;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#main-text {
+    font-size: 3.5em;
+}
+
+#anythingelse {
+    font-size: 1.3em;
+}
+
+#checkourmenu {
+    font-family: "Rouge Script", cursive;
+    font-style: normal;
+    font-size: 2em;
+    color: #e19baa;
+}
+
+#bonappetit {
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7em;
+    color: #595958;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.lign {
+    display: flex;
+    /*margin: 10px;*/
+    gap: 20px;
+}
+
+.carte {
+    height: 13em;
+    width: 25em;
+    border: solid 1.5px #D281A9;
+    border-radius: 10%;
+    display: flex;
+    background-color: rgba(241, 219, 225, 0.5);
+}
+
+.carte-all-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.carte-title {
+    font-family: "Rouge Script", cursive;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #e19bbe;
+    margin: 7% 5% 5% 0;
+}
+
+.carte-text {
+    font-family: "Imprima", sans-serif;
+    color: #595958;
+    padding-right: 2%;
+}
+
+.carte-img {
+    margin: 0.7em;
+}
+
+#strawberry-latte {
+    margin: 7%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #595958;
+    margin: 5%;
+}
+
+#logo-footer {
+    height: 5%;
+    width: 12%;
+}
+
+#copyright {
+    font-family: "Imprima", sans-serif;
+    color: #595958;
+}
